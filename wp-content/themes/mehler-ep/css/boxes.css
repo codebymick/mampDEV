@@ -1,0 +1,105 @@
+/*
+Theme Name: Mehler EP
+Theme URI: re7consulting.com
+Author: re7consulting 
+Author URI: re7consulting.com
+Text Domain: mehler-ep
+Version: 2.0
+*/
+
+
+/*TEST RESPONSIVE STYLES*/
+
+@media ( min-width: 1260px) {}
+
+@media( max-width: 1310px) {}
+
+@media ( max-width: 1260px) {
+    .box-row {
+        margin-left: 10%;
+    }
+    .box {
+        min-width: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    body>div.section-content>div>div>div.box-table>div:nth-child(2)>div {
+        margin-left: 0px!important;
+    }
+    .slick-slider>div>div {
+        width: 100%;
+        display: block;
+        padding-left: 7%;
+    }
+    .slick-slider>div>div>div {
+        min-width: 55%;
+        min-height: 500px;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div:last-child {
+        margin-left: 12%!important;
+    }
+}
+
+@media ( max-width: 1040px) {
+    .box-row {
+        margin-left: 10%;
+    }
+    .box {
+        min-width: 80%;
+    }
+    .slick-slider>div>div {
+        min-height: 500px;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div {
+        padding-left: 0;
+        width: 80%;
+        margin: 10%;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div {
+        margin-left: 22%!important;
+        min-width: 250px;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div:last-child {
+        clear: both;
+        float: left;
+        margin-left: 120px!important;
+        margin-top: 10px;
+    }
+}
+
+@media ( max-width: 750px) {
+    .slick-slider>div>div>div {
+        min-height: 500px;
+    }
+    .slick-slider>div>div>div {
+        float: left;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div {
+        padding-left: 0;
+        width: 100%;
+        margin: 0;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div:first-child {
+        margin-bottom: 10px;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div:last-child {
+        margin-top: -27px;
+        margin-left: 22%!important;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div,
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div:last-child {
+        margin-left: 15%!important;
+    }
+}
+
+@media ( max-width: 450px) {
+    .slick-slider>div>div>div {
+        min-width: 100%;
+    }
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div,
+    body>div.section-content.white>div.showboxes.structure.slider>div>div.slider-wrap.slick-initialized.slick-slider>div>div>div:last-child {
+        margin-left: -20px!important;
+    }
+}
+
+*/

@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mehler EP\n"
+"POT-Creation-Date: 2017-11-02 15:28+0100\n"
+"PO-Revision-Date: 2017-11-07 12:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "Die Seite nach der Sie suchen existiert leider nicht!"
+msgstr "The page you are looking for does not exist!"
+
+#: 404.php:12
+msgid "Zur Startseite"
+msgstr "To Homepage"
+
+#: front-page.php:50
+msgid "Zum Produkt"
+msgstr "Find Out More"
+
+#: front-page.php:67
+msgid "Zu allen Produkten"
+msgstr "To All Products"
+
+#: functions.php:11
+msgid "Hauptmenü"
+msgstr "Main Menu"
+
+#: functions.php:12
+msgid "Pre-Header"
+msgstr "Pre-Header"
+
+#: functions.php:13
+msgid "Footermenü 1"
+msgstr "Footer Menu 1"
+
+#: functions.php:14
+msgid "Footermenü 2"
+msgstr "Footer Menu 2"
+
+#: functions.php:15
+msgid "Footermenü 3"
+msgstr "Footer Menu 3"
+
+#: functions.php:16
+msgid "Footermenü 4"
+msgstr "Footer Menu 4"
+
+#: functions.php:148
+msgid "Ihre Suche nach "
+msgstr "Your search for "
+
+#: functions.php:148
+msgid " ergab folgende Ergebnisse"
+msgstr " has the following results"
+
+#: functions.php:249
+msgctxt "post type general name"
+msgid "Produkte"
+msgstr "Products"
+
+#: functions.php:250
+msgctxt "post type singular name"
+msgid "Produkt"
+msgstr "Product"
+
+#: functions.php:251
+msgctxt "admin menu"
+msgid "Produkte"
+msgstr "Products"
+
+#: functions.php:252
+msgctxt "add new on admin bar"
+msgid "Produkte"
+msgstr "Products"
+
+#: functions.php:253
+msgctxt "book"
+msgid "Neues Produkt hinzufügen"
+msgstr "Add new Product"
+
+#: functions.php:254
+msgid "Neues Produkt hinzufügen"
+msgstr "Add new Product"
+
+#: functions.php:255
+msgid "Neues Produkt"
+msgstr "New Product"
+
+#: functions.php:256
+msgid "Produkt bearbeiten"
+msgstr "Edit Product"
+
+#: functions.php:257
+msgid "Produkt ansehen"
+msgstr "View Product"
+
+#: functions.php:258
+msgid "Alle Produkte"
+msgstr "All Products"
+
+#: functions.php:259
+msgid "Produkte durchsuchen"
+msgstr "Browse Products"
+
+#: functions.php:260 functions.php:261
+msgid "Keine Produkte gefunden."
+msgstr "No Products Found."
+
+#: functions.php:265
+msgid "Alle Produkte der Mehler EP"
+msgstr "All Mehler Products"
+
+#: functions.php:279
+msgctxt "post type general name"
+msgid "Branchen"
+msgstr "Industries"
+
+#: functions.php:280
+msgctxt "post type singular name"
+msgid "Branche"
+msgstr "Industry"
+
+#: functions.php:281
+msgctxt "admin menu"
+msgid "Branchen"
+msgstr "Industries"
+
+#: functions.php:282
+msgctxt "add new on admin bar"
+msgid "Branchen"
+msgstr "Industries"
+
+#: functions.php:283
+msgctxt "book"
+msgid "Neue Branche hinzufügen"
+msgstr "Add new Industry"
+
+#: functions.php:284
+msgid "Neue Branche hinzufügen"
+msgstr "Add new Industry"
+
+#: functions.php:285
+msgid "Neue Branche"
+msgstr "New Industry"
+
+#: functions.php:286
+msgid "Branche bearbeiten"
+msgstr "Edit Industry"
+
+#: functions.php:287
+msgid "Branche ansehen"
+msgstr "View Industry"
+
+#: functions.php:288
+msgid "Alle Branchen"
+msgstr "All Industries"
+
+#: functions.php:289
+msgid "Branchen durchsuchen"
+msgstr "Browse Industries"
+
+#: functions.php:290 functions.php:291
+msgid "Keine Branchen gefunden."
+msgstr "No Industry Found."
+
+#: functions.php:295
+msgid "Alle Branchen der Mehler EP"
+msgstr "All sectors of Mehler EP"
+
+#: page-branchen.php:45 single-mep_produkte.php:44
+msgid "Anwendungen"
+msgstr "Application"
+
+#: page-branchen.php:59 page-produkte.php:59
+msgid "Keine Einträge in dieser Kategorie"
+msgstr "Nothing found in this category"
+
+#: page-contact.php:44
+msgid "Infos über "
+msgstr "Info about "
+
+#: page-news.php:40
+msgid "Erstellt am: "
+msgstr "Posted: "
+
+#: page-news.php:44
+msgid "weiterlesen"
+msgstr "read more"
+
+#: page-produkte.php:46
+msgid "Details"
+msgstr "Details"
+
+#: search.php:51
+msgid "Leider keine Einträge vorhanden"
+msgstr "Sorry, no results found"
+
+#: single-mep_branchen.php:66
+msgid "Infos anfordern über "
+msgstr "Get info about "
+
+#: template-stellenangebot.php:27
+msgid "Ihre Vorteile als Mitarbeiter"
+msgstr "Your Advantages as an Employee"
+
+#: template-stellenangebot.php:33
+msgid "Ihre Ansprechpartner"
+msgstr "Your contact person"
+
+#: templates/cta-contact.php:3
+msgid "Haben wir Ihr Interesse geweckt?"
+msgstr "Have we piqued your interest?"
+
+#: templates/cta-contact.php:4
+msgid "Kontakt"
+msgstr "Contact"
+
+#: templates/template-landingpage.php:151
+msgid "Weitere Produkte und Technologien"
+msgstr "Other products and technologies"
+
+#. Theme Name of the plugin/theme
+msgid "Mehler EP"
+msgstr "Mehler EP"
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "re7consulting.com"
+msgstr "re7consulting.com"
+
+#. Author of the plugin/theme
+msgid "re7consulting"
+msgstr "re7consulting"

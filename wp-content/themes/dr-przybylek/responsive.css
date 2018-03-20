@@ -1,0 +1,471 @@
+@media (max-width:1620px) {
+    bordertest {
+        background-color: rgba(255, 0, 0, .1)/*bordertest------------------------------*/
+    }
+    .inner {
+        width: 80%;
+    }
+    #intro-sektion .inner .text {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .zeiten .timetable {
+        width: 90%
+    }
+    #footer .timetable {
+        width: 100%
+    }
+    #footer .timetable .header {
+        margin-right: 20px;
+    }
+    #cta .cta-btn {
+        width: 27%;
+        transform: translateX(80%);
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 200;
+        margin-right: 20px;
+    }
+    #artikel-mit.outer {
+        background-size: 100%;
+    }
+    .logo.alignleft.realthird {
+        width: 19%
+    }
+    .leistungen {
+        margin-left: 3%
+    }
+    .linkbtn {
+        min-width: 22%;
+    }
+    #anliegen h3 {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width:1450px) {
+    bordertest {
+        background-color: rgba(0, 0, 10, .1)/*bordertest------------------------------*/
+    }
+    #intro-sektion .timetable {
+        width: 100%
+    }
+    #intro-sektion .timetable .header {
+        width: 25%
+    }
+    #footer .kontakt {
+        width: 350%
+    }
+}
+
+@media (max-width:1320px) {
+    bordertest {
+        background-color: rgba(0, 251, 250, .1)/*bordertest------------------------------*/
+    }
+    #intro-sektion .timetable .header {
+        width: 20%
+    }
+    #footer .header {
+        width: 25%
+    }
+    #footer .timetable {
+        width: 100%
+    }
+    #footer .leistungen {
+        display: none
+    }
+    .logo.alignleft.realthird {
+        width: 30%
+    }
+    #footer .kontakt.alignright.sixth {
+        width: 33%;
+    }
+    #fourlinks .linkbtn {
+        width: 23.7%;
+    }
+    #fourlinks p {
+        font-size: .8vw;
+        text-align: left
+    }
+    #anliegen h3 {
+        font-size: 1.1vw;
+    }
+}
+
+@media (max-width:1279px) {
+    bordertest {
+        background-color: rgba(255, 0, 0, .1)/*bordertest------------------------------*/
+    }
+    #header.outer .navbar.outer .inner ul {
+        width: 80%;
+    }
+    .tel.inner {
+        width: 15%
+    }
+    .navbar .inner,
+    .tel p {
+        height: 50px;
+        line-height: 50px;
+    }
+    #intro-sektion .timetable .header {
+        width: 25%;
+    }
+    #intro-sektion .timetable .detail {
+        width: 65%;
+        font-size: 90%;
+        line-height: inherit
+    }
+    #intro-sektion .timetable {
+        padding-left: 0;
+        font-size: 80%
+    }
+    #intro-sektion .zeiten {
+        margin-left: 0;
+    }
+    #anliegen table td {
+        width: 49%;
+        display: inline-block
+    }
+    #footer .logo.realthird {
+        width: 20%
+    }
+    #footer .zeiten-box.third.alignleft {
+        margin-top: 30px;
+    }
+    .zeiten-box.third.alignleft {
+        width: 40%
+    }
+    #anliegen h3 {
+        font-size: 1.5vw;
+    }
+    #footer .zeiten-box.third.alignleft {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:1080px) {
+    bordertest {
+        background-color: rgba(1, 0, 0, .1)/*bordertest------------------------------*/
+    }
+    #header.outer .navbar.outer .inner ul {
+        width: 70%;
+    }
+    .tel.inner {
+        width: 15%
+    }
+    .navbar .inner,
+    .tel p {
+        height: 40px;
+        line-height: 40px;
+    }
+    .navbar .inner ul li,
+    .tel.inner {
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 40px;
+        line-height: 40px;
+        font-size: .7vw;
+    }
+    .logo.alignleft.realthird {
+        width: 20%
+    }
+    .zeiten .timetable {
+        min-width: 105%
+    }
+}
+
+@media (max-width:1023px) {
+    bordertest {
+        background-color: rgba(255, 0, 0, .1)/*bordertest------------------------------*/
+    }
+    #intro-sektion .text,
+    #intro-sektion .zeiten {
+        width: 100%
+    }
+    #intro-sektion .zeiten {
+        padding-left: 10px
+    }
+    #intro-sektion .timetable {
+        margin-left: -23px;
+    }
+    #intro-sektion .zeiten .timetable {
+        border-left: transparent;
+    }
+    #artikel .text,
+    #artikel .image-box {
+        width: 100%
+    }
+    #artikel-tri-col {
+        -webkit-column-count: 2;
+        /* Chrome,
+Safari,
+Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+    }
+    #artikel-tri-col p {
+        height: 500px
+    }
+    #footer .leistungen {
+        display: none
+    }
+    #footer .third,
+    .kontakt.alignright.sixth {
+        min-width: 45%;
+        float: left;
+        margin: 30px auto;
+        margin-left: 5%;
+    }
+    #footer .third {
+        margin-left: 0
+    }
+    #footer .kontakt {
+        float: right;
+        margin-top: 0
+    }
+    #footer .logo.alignleft.realthird {
+        background-size: contain;
+        height: 200px;
+        background-repeat: no-repeat;
+        width: 50%;
+        margin-left: 25%
+    }
+    #footer .timetable .header {
+        margin-right: 5px;
+    }
+    .image-content.rounded-lge {
+        margin: 20px 0;
+    }
+    #aktuelles .third {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 40px
+    }
+    #aktuelles .third:first-child {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 0
+    }
+    #aktuelles .cta-btn {
+        width: 45%;
+    }
+}
+
+@media (max-width:959px) {
+    bordertest {
+        background-color: rgba(255, 0, 200, .6)/*bordertest------------------------------*/
+    }
+    #cta .cta-btn {
+        width: 37%;
+        transform: translateX(9%);
+        font-size: 18px;
+        font-weight: 200;
+        margin-right: 20px;
+    }
+    #footer .timetable .header {
+        margin-right: 2px;
+    }
+    .linkbtn {
+        min-width: 44%;
+        margin: 5px 2vw;
+    }
+    #fourlinks .linkbtn p {
+        font-size: 1.4vw
+    }
+    #header .logo {
+        padding-bottom: 13%;
+    }
+    .navbar {
+        margin-top: -20px
+    }
+}
+
+@media (max-width:850px) {
+    bordertest {
+        background-color: rgba(10, 240, 200, .1)/*bordertest------------------------------*/
+    }
+    #header.outer .navbar.outer .inner ul {
+        width: 70%;
+    }
+    .tel.inner {
+        width: 25%
+    }
+    .navbar .inner,
+    .tel p {
+        height: 30px;
+        line-height: 30px;
+    }
+    #artikel .image-box .rounded-lge {
+        width: 100%;
+        background-size: cover
+    }
+    #artikel-mit.outer {
+        background-size: 100%;
+    }
+    #artikel-tri-col {
+        -webkit-column-count: 1;
+        /* Chrome,Safari,Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+    #footer .third.alignleft {
+        width: 60%
+    }
+    #footer .timetable .row .header.alignleft {
+        margin-left: 0;
+        width: 20%;
+    }
+    #footer .timetable .detail {
+        float: left;
+        width: 50%;
+    }
+    #footer .kontakt,
+    #footer .third.alignleft,
+    #footer .kontakt.alignright.sixth {
+        margin-top: 50px;
+        float: left;
+        width: 80%;
+        margin-left: 10%
+    }
+    #cta .inner .cta-btn,
+    #aktuelles .inner .cta-btn {
+        font-size: 2.5vw;
+    }
+    #footer .logo.alignleft.realthird {
+        height: 180px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #anliegen h3 {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width:700px) {
+    /*bordertest*/
+    bordertest {
+        background-color: rgba(255, 0, 0, .1)/*bordertest------------------------------*/
+    }
+    #intro-sektion .zeiten {
+        padding: 0 0;
+        padding-left: 10px;
+        padding-top: 20px
+    }
+    #intro-sektion .text.sixty.alignleft {
+        padding: 0;
+        margin: 0;
+    }
+    #cta .cta-btn {
+        width: 47%;
+        transform: translateX(0%);
+    }
+    #footer .kontakt {
+        margin-top: 50px;
+        float: left;
+    }
+    #footer .timetable .detail {
+        width: 70%;
+    }
+    #footer .logo.alignleft.realthird {
+        height: 150px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:639px) {
+    bordertest {
+        background-color: rgba(255, 0, 255, .1)/*bordertest------------------------------*/
+    }
+    #footer .kontakt,
+    #footer .third.alignleft,
+    #footer .kontakt.alignright.sixth {
+        margin-top: 50px;
+        float: left;
+        width: 90%;
+        margin-left: 5%
+    }
+    #cta .cta-btn {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5px;
+    }
+    #footer .zeiten-box {
+        margin: 0
+    }
+    #footer .logo.alignleft.realthird {
+        height: 120px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #anliegen table td {
+        display: block;
+        width: 100%
+    }
+    #anliegen h3 {
+        font-size: 2.5vw;
+    }
+    #intro-sektion .zeiten {
+        padding: 0 0;
+        padding-left: 5px;
+        padding-top: 10px
+    }
+}
+
+@media (max-width:479px) {
+    bordertest {
+        background-color: rgba(100, 0, 100, .1)/*bordertest------------------------------*/
+    }
+    #footer {
+        width: 100%;
+        font-size: 2.5vw
+    }
+    #footer .header {
+        padding-right: 1px;
+        margin: 0px
+    }
+    #footer .timetable .detail {
+        padding: 0px;
+        width: 60%;
+    }
+    #fourlinks.outer {
+        height: 258px
+    }
+    .layer2 {
+        height: 250px;
+        -moz-height: 250px
+    }
+    #fourlinks .linkbtn {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #fourlinks .linkbtn p {
+        font-size: 2.5vw;
+    }
+    #intro-sektion .zeiten .detail {
+        width: 100%;
+    }
+}
+
+@media (max-width:370px) {
+    bordertest {
+        background-color: rgba(255, 100, 0, .1)/*bordertest------------------------------*/
+    }
+    #cta .cta-btn {
+        width: 80%;
+        margin-left: 10%
+    }
+    #footer .timetable .detail {
+        float: right;
+    }
+}
+
+@media (max-width:318px) {
+    bordertest {
+        background-color: rgba(255, 0, 0, .1)/*bordertest------------------------------*/
+    }
+}

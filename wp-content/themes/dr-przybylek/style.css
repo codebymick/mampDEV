@@ -1,0 +1,690 @@
+/*
+Theme Name: Dr-Przybylek.
+Theme URI: http://www.re7consulting.com
+Description: Template fur Dr-Przybylek
+Author: re7consulting /mickwhite
+Author URI: http://www.re7consulting.com
+Version: 1.0
+*/
+
+html {
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: justify
+}
+
+*:focus {
+    outline: none
+}
+
+
+/* STD Classes */
+
+.outer {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.inner {
+    margin: 40px auto;
+    width: 1440px;
+}
+
+.inner:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: ".";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 20px 0 30px 0;
+    color: #2b2b2b;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin: 20px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #2b2b2b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 26px;
+}
+
+.header {
+    text-transform: capitalize
+}
+
+h1,
+h2,
+h3,
+#anliegen p,
+.cta-btn {
+    text-align: center
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.clear {
+    width: 10%;
+    height: 10px;
+}
+
+.rounded-sml {
+    border-radius: 6px
+}
+
+.rounded-lge {
+    border-radius: 20px
+}
+
+.alignleft {
+    float: left;
+    margin: 0 15px 0 0
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 0 15px
+}
+
+.quart {
+    width: 23%;
+}
+
+.sixth {
+    width: 15%;
+}
+
+.ten {
+    width: 10%;
+}
+
+.twenty {
+    width: 20%;
+}
+
+.half {
+    width: 49%
+}
+
+.sixty {
+    width: 57%;
+}
+
+.forty {
+    width: 39%;
+}
+
+.third {
+    width: 31%;
+}
+
+.realthird {
+    width: 33%;
+}
+
+.twothirds {
+    width: 64%;
+}
+
+.logo {
+    background: url('./images/RZ_Przybylek_Logo.PNG');
+}
+
+
+/*-------------------------------*/
+
+
+/* HEADER */
+
+#header .logo {
+    padding-bottom: 8%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* NAVIGATION */
+
+.navbar .inner,
+.tel p {
+    height: 60px;
+    border-top: 1px solid #c9bcb1;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: .9vw;
+    line-height: 60px;
+}
+
+.tel p {
+    margin-left: 0px;
+    text-align: right;
+}
+
+.tel:last-child,
+.tel p:last-child {
+    padding-left: 1vw;
+    border-top: none;
+}
+
+.navbar ul li,
+.tel {
+    display: inline;
+    float: left;
+    padding: 0 16px;
+    border-top: none;
+}
+
+#navigation ul li:hover,
+.current-menu-item {
+    background: rgba(202, 189, 178, .8);
+    color: #fff;
+}
+
+.tel.inner {
+    position: relative;
+    float: right;
+    clear: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 16%;
+    width: auto text-align: right;
+}
+
+.tel.inner img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: left;
+    width: 2.4vw;
+    object-position: left bottom;
+}
+
+.tel p {
+    color: #fff;
+}
+
+.tel {
+    background: rgba(202, 189, 178, .8);
+}
+
+
+/* SLIDER */
+
+.slider {
+    display: block;
+    margin-top: -50px;
+    padding-bottom: 32.97%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*-------------------------------*/
+
+
+/*CONTENT-SECTION*/
+
+#intro-sektion.outer {
+    margin: 20px 0 20px 0;
+    padding-bottom: 0px;
+}
+
+#intro-sektion .inner {
+    display: block;
+    margin: auto;
+}
+
+#intro-sektion .inner .text {
+    padding: 20px 0 0 0px;
+    text-align: justify
+}
+
+#intro-sektion .zeiten h3 {
+    margin: 0 20px 20px 0;
+}
+
+#intro-sektion .zeiten {
+    margin: 10px;
+    text-align: left;
+}
+
+#intro-sektion .zeiten .timetable {
+    padding-left: 20px;
+    width: 100%;
+    border-left: 1px solid #c9bcb1;
+}
+
+.timetable .row {
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c9bcb1;
+}
+
+.row .header {
+    clear: left;
+    width: 20%;
+    text-align: left;
+    font-weight: 700;
+}
+
+.row .detail {
+    clear: none;
+}
+
+.inner .zeiten {
+    padding: 20px 0;
+    text-align: justify
+}
+
+#fourlinks.outer {
+    height: 138px;
+    border-top: 1px solid #c9bcb1;
+    border-bottom: 1px solid #c9bcb1;
+    background: #fff;
+}
+
+.layer2 {
+    display: block clear: none;
+    margin-top: 3px;
+    height: 130px;
+    background: #f4f4f4;
+}
+
+#fourlinks .inner {
+    margin: 0 auto;
+}
+
+.linkbtn {
+    float: left;
+    margin: 35px .5vw;
+    padding: 0px;
+    padding-left: .3vw;
+    min-width: 23%;
+    border: 1px solid transparent;
+}
+
+.linklabel {
+    padding-left: 45px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-size: .9vw;
+}
+
+.linkbtn:hover {
+    border: 1px solid #c9bcb1;
+    border-radius: 12px;
+    background: #ebebeb;
+}
+
+.linkbtn .linklabel {
+    display: inline-block;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+/*-------------------------------------------*/
+
+#anliegen {
+    margin: 50px auto;
+}
+
+#anliegen h3 {
+    margin: 20px 5px;
+    padding: 30px 0;
+    height: 80px;
+    color: #c9bcb1;
+    text-transform: uppercase;
+}
+
+#anliegen p {
+    padding-top: 20px;
+    height: 80px;
+    text-transform: none;
+    font-style: italic;
+}
+
+#anliegen table td {
+    width: 25%;
+}
+
+#anliegen table div {
+    margin: 10px;
+    width: 90%;
+    box-shadow: 2px 2px 12px #c9bcb1;
+}
+
+#anliegen table div:hover {
+    box-shadow: 1px 1px 1px #c9bcb1;
+}
+
+
+/*-------------------------------*/
+
+#cta.outer {
+    margin: 40px 0;
+}
+
+#cta {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+}
+
+#cta::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: url('./images/countries.png') no-repeat center;
+    background-size: cover;
+    content: "";
+    opacity: 0.2;
+}
+
+#cta .cta-btn {
+    float: left;
+    margin: 40px auto;
+    margin-right: 20px;
+    padding: 10px 20px;
+    width: 17%;
+    border: 1px solid transparent;
+    border-radius: 26px;
+    background: #c9bcb1;
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+    transform: translateX(185%);
+}
+
+#cta .cta-btn:hover {
+    border: 1px solid #c9bcb1;
+    background: #fff;
+    color: #c9bcb1;
+}
+
+#cta .cta-btn:last-child {
+    margin-right: 0px;
+}
+
+
+/*-------------------------------*/
+
+#artikel-mit {}
+
+#artikel,
+#artikel-mit {
+    text-align: justify;
+}
+
+#artikel h2 {
+    text-align: center;
+}
+
+#artikel .half {
+    width: 47.96%
+}
+
+.image-box .image-content {
+    display: block;
+    margin: 1%;
+    padding-bottom: 65.5%;
+    width: 98%;
+    height: 0;
+    border-radius: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#artikel-mit.outer {
+    z-index: -9999;
+    background-size: 60% 120%;
+}
+
+
+/*-------------------------------*/
+
+#aktuelles.outer {
+    height: auto;
+    background: url('images/Rechteck4.png') no-repeat;
+    background-size: cover;
+}
+
+#aktuelles.outer h1 {
+    padding-top: 40px
+}
+
+#aktuelles .inner {
+    padding: 0;
+    height: auto;
+}
+
+#aktuelles .box {
+    position: relative;
+    float: left;
+    margin-right: 3%;
+    max-height: 20%;
+    background-color: #fff
+}
+#aktuelles .box:last-child {
+    position: relative;
+    float: left;
+    margin-right: 0;
+    max-height: 20%;
+}
+
+#aktuelles .image {
+	position:relative;
+}
+#aktuelles .image img {
+	display:block;
+	width:100%;
+	height:auto;
+}
+#aktuelles .image:after {
+	display:block;
+	content:"";
+    position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+    background-size:100% auto;
+    background-repeat:no-repeat;
+	background-position:bottom;
+}
+#aktuelles .box.box-1 .image:after { background-image:url('images/box1.png'); }
+#aktuelles .box.box-2 .image:after { background-image:url('images/box2.png'); }
+#aktuelles .box.box-3 .image:after { background-image:url('images/box3.png'); }
+
+
+#aktuelles .text {
+    padding: 10px 10px 60px;
+    background: #fff;
+}
+
+#aktuelles .cta-btn {
+    margin: 40px auto 0px;
+    padding: 10px 20px;
+    width: 70%;
+    border: 1px solid transparent;
+    border-radius: 26px;
+    background: #c9bcb1;
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#aktuelles .cta-btn:hover {
+    border: 1px solid #c9bcb1;
+    background: #fff;
+    color: #c9bcb1;
+}
+
+
+/*-------------------------------*/
+
+#artikel-tri-col {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+}
+
+#artikel-tri-col p {
+    height: 900px
+}
+
+#artikel-mit.outer .inner {
+    padding-right: 0
+}
+
+
+/*-------------------------------*/
+
+#footer.outer {
+    padding-top: 40px;
+    border-top: 1px solid #c9bcb1;
+    background: #f8f8f8;
+}
+
+#footer,
+#footer p {
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-size: 90%;
+}
+
+#footer h3 {
+    margin: 0 0 20px 0;
+    font-size: 100%;
+}
+
+#footer .logo {
+    padding-bottom: 8%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#footer .zeiten-box.third.alignleft {
+    margin-top: 0px;
+}
+
+.logo.alignleft.realthird {
+    width: 24%
+}
+
+#footer .timetable {
+    padding-left: 0px;
+    width: 80%;
+    border-left: none;
+}
+
+#footer ul li {
+    padding-bottom: 10px;
+    list-style: none;
+    font-weight: 300;
+}
+
+#footer .leistungen {
+    width: 15%
+}
+
+#footer .kontakt.alignright.sixth {
+    width: 25%;
+}
+
+#footer .header {
+    font-weight: 400;
+}
+
+.bottomline {
+    border-top: 1px solid #c9bcb1;
+}
+
+.bottomline p {
+    display: inline;
+    padding-bottom: 1px;
+    height: 40px;
+    font-weight: 300;
+}
+
+#footer.outer {
+    padding-bottom: .1px;
+}
+
+
+
+/* TEXT */
+.text h1 {}
+.text h2 {}
+.text h3 {}
+.text h4 {}
+.text h5 {}
+.text h6 {}
+
+.text p { margin-bottom:15px; }
+
+.text ul, .text ol {}
+.text li {}
+
+.text b, .text strong {}
+	
+.text a {}
+
+.text img {
+	max-width:100%;
+	height:auto;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	border-radius:12px;
+}

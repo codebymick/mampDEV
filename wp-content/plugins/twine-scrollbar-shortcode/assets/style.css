@@ -1,0 +1,145 @@
+.twine {
+	display:table;
+	width:100%;
+  	height:100%;
+	margin-bottom:40px;
+}
+
+.twine * {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.twine > .twine-section {
+	display:table-row;
+	height:100%;
+}
+.twine > .twine-section > .twine-image {
+	display:table-cell;
+	vertical-align:top;
+	width:550px;
+	height:100%;
+	padding-bottom:75px;
+}
+.twine > .twine-section > .twine-image > div {
+	width:100%;
+	height:100%;
+	position:relative;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	overflow:hidden;
+}
+.twine > .twine-section > .twine-image > div > a {
+	display:block;
+	position:absolute;
+	top:0;
+	left:-9999px;
+	right:-9999px;
+	z-index:2;
+	margin:auto;
+}
+.twine > .twine-section > .twine-image > div > a > img {
+	position:static;
+}
+.twine > .twine-section > .twine-image > div img {
+	display:block;
+	opacity:0.4;
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:-9999px;
+	right:-9999px;
+	z-index:2;
+	margin:auto;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+.twine > .twine-section.active > .twine-image > div img {
+	opacity:1;
+}
+
+.twine > .twine-section > .twine-text {
+	display:table-cell;
+  	vertical-align:top;
+	width:550px;
+	height:100%;
+	padding-bottom:75px;
+}
+
+.twine > .twine-section:last-child > .twine-text,
+.twine > .twine-section:last-child > .twine-image {
+	padding-bottom:0;
+}
+
+.twine > .twine-section > .twine-text > .text-sec {
+	height:100%;
+	padding:20px;
+	background:rgb(255, 255, 255);
+	border:1px solid rgb(234, 234, 234);
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+.twine > .twine-section.active > .twine-text > .text-sec {
+	border:1px solid #018284;
+}
+
+.twine > .twine-section > .twine-text h2 {
+	margin-top: 10px;
+}
+.twine > .twine-section > .twine-text p {
+	line-height:20px;
+}
+
+.twine > .twine-section > .twine-hr {
+	display:table-cell;
+	height:100%;
+	width:44px;
+	position:relative;
+}
+
+.twine > .twine-section > .twine-hr > .horizontel {
+	width: 2px;
+	background: rgb(204,204,204);
+	position: absolute;
+	left: 50%;
+	margin-left: -1px;
+	z-index: 10;
+	top: 0px;
+	height: 100%;
+}
+
+.twine > .twine-section > .twine-hr > .activator {
+	width: 2px;
+	background: rgb(0,131,133);
+	position: absolute;
+	left: 50%;
+	margin-left: -1px;
+	z-index: 20;
+	top: 0px;
+	height: 100%;
+}
+
+.twine > .twine-section > .twine-hr > .anker {
+	background: url('img/scroller-button.png') no-repeat 50% 50%; 
+	width: 45px;
+	height: 20px;
+	position: absolute;
+	top: 10%;
+	z-index: 100;
+}
+.twine > .twine-section.active > .twine-hr > .anker {
+	background-image:url('img/scroller-button-hover.png');
+}
