@@ -245,5 +245,5 @@ msgid "codebymick.com"
 msgstr "codebymick.com"
 
 #. Author of the plugin/theme
-msgid "re7consulting"
-msgstr "re7consulting"
+msgid "mw"
+msgstr "mw"
