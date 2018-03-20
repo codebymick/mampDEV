@@ -241,8 +241,8 @@ msgstr "Mehler EP"
 
 #. Theme URI of the plugin/theme
 #. Author URI of the plugin/theme
-msgid "re7consulting.com"
-msgstr "re7consulting.com"
+msgid "codebymick.com"
+msgstr "codebymick.com"
 
 #. Author of the plugin/theme
 msgid "re7consulting"
