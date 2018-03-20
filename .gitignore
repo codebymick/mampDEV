@@ -18,8 +18,8 @@ img/
 **/*.jpg
 **/*.gif
 **/*.pdf
-**/plugins/
 plugins/
+**/plugins/
 .config
 .htaccess
 .DS_Store
